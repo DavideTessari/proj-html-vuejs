@@ -29,35 +29,72 @@ export default {
                     <nav>
                         <ul class="d-flex gap-3 flex-wrap small">
                             <li :class="{'active': link.active}" v-for="link in links">
-                                <a class="text-white" href="#">{{ link.text }}</a>
+                                <a class="" href="#">{{ link.text }}</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
+        <div class="container">
+            <section class="col-lg-6">
+                <span class="badge text-bg-warning py-0">Welcome</span>
+                <h1 class="text-white fw-bold pt-3">ACADEMIC CHESS FOR <p class="yellow">EVERYONE</p></h1>
+                <p class="medium text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil, ratione voluptate saepe quod voluptatum quibusdam totam error aperiam quo voluptas optio blanditiis eaque asperiores placeat accusamus corporis unde ipsam.</p>
+            
+                <div class="d-flex gap-3 pt-3">
+                    <button type="button" class="btn">Email Now</button>
+                    <button type="button" class="btn btn-outline-light">Learn More</button>
+                </div>
+            </section>
+        </div>
     </header>
 </template>
+
 
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 
-header{
-    background-image: url(/src/assets/images/mt-2236-home-bg1.jpg);
+header {
+    background-image: url('/src/assets/images/mt-2236-home-bg1.jpg');
 
     .sfondo-header{
         background-color: rgba($color: #08121f, $alpha: 0.3);
+
+        .logo{
+            max-width: 130px;
+        }
+
+        button {
+            max-height: 35px;
+            font-weight: 600;
+        }
+
+        li a:first-child {
+            color: white !important;
+        }
     }
 
-    .logo{
-        max-width: 130px;
-    }
+    section{
+        padding: 80px 0;
 
-    button {
-        max-height: 35px;
-        font-weight: 600;
-    }
+        .badge{
+            font-size: 11px;
+            font-weight: 100;
+        }
 
+        h1 p{
+            color: $yellow;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        button:first-child{
+            background-color: $yellow;
+        }
+    }
 }
-
 </style>
+

@@ -14,7 +14,7 @@ export default {
       links: [
         {
           text: 'Home',
-          active: false
+          active: true
         },
         {
           text: 'Services',
