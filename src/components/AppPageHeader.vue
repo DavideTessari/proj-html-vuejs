@@ -43,8 +43,8 @@ export default {
                 <p class="medium text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nihil, ratione voluptate saepe quod voluptatum quibusdam totam error aperiam quo voluptas optio blanditiis eaque asperiores placeat accusamus corporis unde ipsam.</p>
             
                 <div class="d-flex gap-3 pt-3">
-                    <button type="button" class="btn">Email Now</button>
-                    <button type="button" class="btn btn-outline-light">Learn More</button>
+                    <button type="button" class="btn medium fw-bold px-4">Email Now</button>
+                    <button type="button" class="btn btn-outline-light medium fw-bold px-4">Learn More</button>
                 </div>
             </section>
         </div>
