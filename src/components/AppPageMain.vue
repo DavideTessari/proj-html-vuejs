@@ -86,6 +86,18 @@ export default {
                 <img src="/src/assets/images/mt-2236-home-gallery4.jpg">
             </div>
         </div>
+        <div class="background-learn">
+            <div class="container d-flex p-4 gap-5 justify-content-evenly align-items-center">
+                <div class="horse">
+                    <img src="/src/assets/images/mt-2236-home-icon5.png">
+                </div>
+                <div class="play-learn">
+                    <h1 class="fw-bold">PLAY & LEARN</h1>
+                    <p>Take a look our day to day life here at Chess School</p>
+                </div>
+                <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn-learn">Learn More</button>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -103,8 +115,18 @@ main {
     }
 
     button{
-            background-color: $yellow;
-        }
+        background-color: $yellow;
+    }
+
+    .btn-learn{
+        border-color: 2px black;
+        background-color: transparent;
+    }
+
+    .background-learn{
+        background-color: $yellow;
+    }
 }
+
 
 </style>
