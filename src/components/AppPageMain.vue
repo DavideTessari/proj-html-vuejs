@@ -98,6 +98,57 @@ export default {
                 <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn-learn">Learn More</button>
             </div>
         </div>
+        <div class="container py-5 text-center">
+            <h2 class="text-center fw-bold fs-4 lh-1">Courses</h2>
+            <p class="text-center lh-1 py-2">To keep up with the constantly rising standards of play</p>
+            <div class="d-flex justify-content-between">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/src/assets/images/mt-2236-home-img1.jpg" class="card-img-top">
+                        <div class="card-body text-center shadow-lg">
+                            <h5 class="card-title fw-bold">Garry Kasparov's Masterclass</h5>
+                            <p class="card-text small">Learn the tips. tricks, and strategies from of the best masters</p>
+                            <p class="fw-bold fs-5 m-0">456$</p>
+                            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mx-4">
+                    <div class="card">
+                        <img src="/src/assets/images/mt-2236-home-img2.jpg" class="card-img-top">
+                        <div class="card-body text-center shadow-lg">
+                            <h5 class="card-title fw-bold">Garry Kasparov's Masterclass</h5>
+                            <p class="card-text small">Learn the tips. tricks, and strategies from of the best masters</p>
+                            <p class="fw-bold fs-5 m-0">456$</p>
+                            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/src/assets/images/mt-2236-home-img3.jpg" class="card-img-top">
+                        <div class="card-body text-center shadow-lg">
+                            <h5 class="card-title fw-bold">Garry Kasparov's Masterclass</h5>
+                            <p class="card-text small">Learn the tips. tricks, and strategies from of the best masters</p>
+                            <p class="fw-bold fs-5 m-0">456$</p>
+                            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn-learn">View Other Courses</button>            
+        </div>
+        <div class="step py-5">
+            <div class="d-flex container align-items-center gap-5">
+                <div class="col-9">
+                    <h1 class="fw-bold text-white">TAKE THE <div class="yellow">FIRST STEP</div></h1>
+                    <p class="small text-white">The fascinating of chess has its doors open for anyone</p>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -118,6 +169,10 @@ main {
         background-color: $yellow;
     }
 
+    .horse{
+        max-width: 60px;
+    }
+
     .btn-learn{
         border-color: 2px black;
         background-color: transparent;
@@ -126,6 +181,15 @@ main {
     .background-learn{
         background-color: $yellow;
     }
+
+    .step{
+        background-image: url(/src/assets/images/mt-2236-home-bg2.jpg);
+
+        h1 div{
+            color: $yellow;
+        }
+    }
+
 }
 
 
