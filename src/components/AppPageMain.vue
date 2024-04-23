@@ -100,43 +100,43 @@ export default {
         </div>
         <div class="container py-5 text-center">
             <h2 class="text-center fw-bold fs-4 lh-1">Courses</h2>
-            <p class="text-center lh-1 py-2">To keep up with the constantly rising standards of play</p>
+            <p class="text-center lh-1 py-2 medium">To keep up with the constantly rising standards of play</p>
             <div class="d-flex justify-content-between">
-                <div class="col-4">
+                <div class="col-3">
                     <div class="card">
                         <img src="/src/assets/images/mt-2236-home-img1.jpg" class="card-img-top">
                         <div class="card-body text-center shadow-lg">
                             <h5 class="card-title fw-bold">Garry Kasparov's Masterclass</h5>
                             <p class="card-text small">Learn the tips. tricks, and strategies from of the best masters</p>
                             <p class="fw-bold fs-5 m-0">456$</p>
-                            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                            <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">View More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 mx-4">
+                <div class="col-3">
                     <div class="card">
                         <img src="/src/assets/images/mt-2236-home-img2.jpg" class="card-img-top">
                         <div class="card-body text-center shadow-lg">
                             <h5 class="card-title fw-bold">Garry Kasparov's Masterclass</h5>
                             <p class="card-text small">Learn the tips. tricks, and strategies from of the best masters</p>
                             <p class="fw-bold fs-5 m-0">456$</p>
-                            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                            <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">View More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                     <div class="card">
                         <img src="/src/assets/images/mt-2236-home-img3.jpg" class="card-img-top">
                         <div class="card-body text-center shadow-lg">
                             <h5 class="card-title fw-bold">Garry Kasparov's Masterclass</h5>
                             <p class="card-text small">Learn the tips. tricks, and strategies from of the best masters</p>
                             <p class="fw-bold fs-5 m-0">456$</p>
-                            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                            <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">View More</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn-learn">View Other Courses</button>            
+            <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn-learn">View Other Courses</button>            
         </div>
         <div class="step py-5">
             <div class="d-flex container align-items-center gap-5">
@@ -145,7 +145,54 @@ export default {
                     <p class="small text-white">The fascinating of chess has its doors open for anyone</p>
                 </div>
                 <div class="col-3">
-                    <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn">View More</button>
+                    <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">View More</button>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <h2 class="text-center fw-bold fs-4 lh-1">Our Events</h2>
+            <p class="text-center lh-1 py-2 medium">Chess is fun and we are happy to prove it at our events!</p>
+            <div class="d-flex align-items-center gap-5 pt-3 justify-content-between">
+                <div>
+                    <img src="/src/assets/images/mt-2236-home-img4.jpg">
+                </div>
+                <div>
+                    <h5 class="fw-bold">Grand Summer Tournament of 2021</h5>
+                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos at consequatur quas exercitationem saepe distinctio,<br>id officia sint tempore dolores rem eaque, aspernatur laboriosam ad nemo magnam vel deleniti soluta?</p>
+                </div>
+                <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">Register</button>
+            </div>
+            <div class="d-flex align-items-center gap-5 pt-5 justify-content-between">
+                <div class="img">
+                    <img src="/src/assets/images/mt-2236-home-img5.jpg">
+                </div>
+                <div>
+                    <h5 class="fw-bold">World Chess Day</h5>
+                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos at consequatur quas exercitationem saepe distinctio,<br>id officia sint tempore dolores rem eaque, aspernatur laboriosam ad nemo magnam vel deleniti soluta?</p>
+                </div>
+                <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">Register</button>
+            </div>
+        </div>
+        <div class="news py-3">
+            <div class="container py-5">
+                <div class="d-flex gap-5">
+                    <div class="col-3">
+                        <h2 class="fw-bold fs-4 lh-1">Latest News</h2>
+                        <hr class="my-4">
+                        <button type="button" class="py-2 rounded-1 medium fw-bold px-4 btn-learn">View Other Post</button>            
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <img src="/src/assets/images/mt-2236-blog-img1.jpg">
+                        </div>
+                        <p class="small">The most common mistake when managing personal finaces</p>
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <img src="/src/assets/images/mt-2236-blog-img2.jpg">
+                        </div>
+                        <p class="small">Methods of the recuitment</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -187,6 +234,17 @@ main {
 
         h1 div{
             color: $yellow;
+        }
+    }
+
+    .news{
+        background-color: $grey;
+
+        hr{
+            height: 5px;
+            border-width: 0;
+            background-color: $yellow;
+            max-width: 60px;
         }
     }
 
