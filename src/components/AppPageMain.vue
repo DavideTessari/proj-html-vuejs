@@ -72,7 +72,20 @@ export default {
             </div>
             <button type="button" class="btn medium fw-bold px-4 mt-4">Learn More</button>
         </div>
-        
+        <div class="d-flex">
+            <div class="col-3">
+                <img src="/src/assets/images/mt-2236-home-gallery1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="/src/assets/images/mt-2236-home-gallery2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="/src/assets/images/mt-2236-home-gallery3.jpg">
+            </div>
+            <div class="col-3">
+                <img src="/src/assets/images/mt-2236-home-gallery4.jpg">
+            </div>
+        </div>
     </main>
 </template>
 
