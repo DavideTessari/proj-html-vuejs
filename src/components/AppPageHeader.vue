@@ -70,6 +70,12 @@ header {
         width: 100%;
         z-index: 1000;
 
+        p, a{
+            &:hover{
+                color: $yellow !important;
+            }
+        }
+
         button {
             max-height: 35px;
             font-weight: 600;
