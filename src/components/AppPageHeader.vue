@@ -64,6 +64,11 @@ header {
 
     .sfondo-header{
         background-color: rgba($color: #08121f, $alpha: 0.3);
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
 
         button {
             max-height: 35px;
