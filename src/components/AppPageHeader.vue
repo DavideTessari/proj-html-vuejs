@@ -1,7 +1,11 @@
 <script>
 export default {
     name: 'AppPageHeader',
-    props: ['links']
+    props: {
+        links: Array,
+        address: String,
+        phoneNumber: String
+    }
 }
 </script>
 
@@ -12,7 +16,7 @@ export default {
                 <div class="left pt-2">
                         <p class="text-white d-flex align-items-center gap-2 small">
                             <i class="fa-solid fa-location-dot text-warning"></i>
-                            6767 Santa Monica Bivid, Los Angeles, CA 90038
+                            {{ address }}
                         </p>
                     <div class="logo">
                         <img src="/src/assets/images/mt-2236-home-logo.png" >
@@ -22,14 +26,14 @@ export default {
                     <div class="d-flex justify-content-between">
                             <p class="text-white d-flex gap-2 small align-items-baseline pt-2">
                                 <i class="fa-solid fa-phone text-warning"></i>
-                                Call Now 123-456-789
+                                Call Now {{ phoneNumber }}
                             </p>
                         <button type="button" class="btn btn-light px-5 rounded-3">Donate</button>
                     </div>
                     <nav>
-                        <ul class="d-flex gap-3 flex-wrap small">
-                            <li :class="{'active': link.active}" v-for="link in links">
-                                <a class="" href="#">{{ link.text }}</a>
+                        <ul class="d-flex gap-3 flex-wrap small ">
+                            <li v-for="link in links">
+                                <a class="text-white" href="#">{{ link.text }}</a> 
                             </li>
                         </ul>
                     </nav>
@@ -61,17 +65,13 @@ header {
     .sfondo-header{
         background-color: rgba($color: #08121f, $alpha: 0.3);
 
-        .logo{
-            max-width: 130px;
-        }
-
         button {
             max-height: 35px;
             font-weight: 600;
         }
 
-        li a:first-child {
-            color: white !important;
+        p {
+            cursor: pointer;
         }
     }
 

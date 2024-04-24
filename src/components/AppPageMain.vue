@@ -175,27 +175,28 @@ export default {
         </div>
         <div class="news py-3">
             <div class="container py-5">
-                <div class="d-flex gap-5">
+                <div class="d-flex">
                     <div class="col-3">
                         <h2 class="fw-bold fs-4 lh-1">Latest News</h2>
                         <hr class="my-4">
                         <button type="button" class="py-2 rounded-1 medium fw-bold px-4 btn-learn">View Other Post</button>            
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-5">
                         <div>
                             <img src="/src/assets/images/mt-2236-blog-img1.jpg">
                         </div>
-                        <p class="small">The most common mistake when managing personal finaces</p>
+                        <p class="small mt-2">The most common mistake when managing personal finaces</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-2">
                         <div>
                             <img src="/src/assets/images/mt-2236-blog-img2.jpg">
                         </div>
-                        <p class="small">Methods of the recuitment</p>
+                        <p class="small mt-2">Methods of the recuitment</p>
                     </div>
                 </div>
             </div>
         </div>
+        
     </main>
 </template>
 

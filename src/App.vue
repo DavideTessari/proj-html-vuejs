@@ -1,7 +1,7 @@
 <script>
 import AppPageHeader from './components/AppPageHeader.vue';
-import AppPageMain from './components/AppPageMain.vue'
-import AppPageFooter from './components/AppPageFooter.vue'
+import AppPageMain from './components/AppPageMain.vue';
+import AppPageFooter from './components/AppPageFooter.vue';
 
 export default {
   components: {
@@ -12,48 +12,35 @@ export default {
   data() {
     return {
       links: [
-        {
-          text: 'Home',
-          active: true
-        },
-        {
-          text: 'Services',
-          active: true
-        },
-        {
-          text: 'Courses',
-          active: false
-        },
-        {
-          text: 'About',
-          active: false
-        },
-        {
-          text: 'FAQ',
-          active: false
-        },
-        {
-          text: 'Blog',
-          active: true
-        },
-        {
-          text: 'Contact Us',
-          active: false
-        },
+        { text: 'Home' },
+        { text: 'Services' },
+        { text: 'Courses' },
+        { text: 'About' },
+        { text: 'FAQ' },
+        { text: 'Blog' },
+        { text: 'Contact Us' }
       ],
+      address: '6767 Santa Monica Blvd, Los Angeles, CA 90038',
+      phoneNumber: '123-456-789',
+      copyright: 'Copyright © 2021, All Rights Reserved.',
+      icons: [
+        { text: '<i class="fa-brands fa-facebook-f"></i>' },
+        { text: '<i class="fa-brands fa-telegram"></i>' },
+        { text: '<i class="fa-brands fa-instagram"></i>' }
+      ]
     };
   }
-}
+};
 </script>
 
 <template>
-  <AppPageHeader :links="links"></AppPageHeader>
+  <AppPageHeader :links="links" :address="address" :phoneNumber="phoneNumber"></AppPageHeader>
 
   <main>
     <AppPageMain></AppPageMain>
   </main>
 
-  <AppPageFooter></AppPageFooter>
+  <AppPageFooter :copyright="copyright" :icons="icons"></AppPageFooter>
 </template>
 
 <style lang="scss">
