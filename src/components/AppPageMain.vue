@@ -6,6 +6,8 @@ export default {
 
 <template>
     <main>
+
+        <!-- Services -->
         <div class="container py-5">
             <h2 class="text-center fw-bold fs-4 lh-1">OUR SERVICES</h2>
             <p class="text-center medium lh-1 py-2">We make your child happy day after day</p>
@@ -86,6 +88,9 @@ export default {
                 <img src="/src/assets/images/mt-2236-home-gallery4.jpg">
             </div>
         </div>
+        <!-- Services -->
+
+        <!-- Learn -->
         <div class="background-learn">
             <div class="container d-flex p-4 gap-5 justify-content-evenly align-items-center">
                 <div class="horse">
@@ -98,6 +103,9 @@ export default {
                 <button type="button" class="py-2 rounded-3 medium fw-bold px-4 mt-4 btn-learn">Learn More</button>
             </div>
         </div>
+        <!-- Learn -->
+
+        <!-- Courses -->
         <div class="container py-5 text-center">
             <h2 class="text-center fw-bold fs-4 lh-1">Courses</h2>
             <p class="text-center lh-1 py-2 medium">To keep up with the constantly rising standards of play</p>
@@ -138,6 +146,9 @@ export default {
             </div>
             <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn-learn">View Other Courses</button>            
         </div>
+        <!-- Courses -->
+
+        <!-- Step -->
         <div class="step py-5">
             <div class="d-flex container align-items-center gap-5">
                 <div class="col-9">
@@ -149,6 +160,9 @@ export default {
                 </div>
             </div>
         </div>
+         <!-- Step -->
+
+        <!-- Events -->
         <div class="container py-5">
             <h2 class="text-center fw-bold fs-4 lh-1">Our Events</h2>
             <p class="text-center lh-1 py-2 medium">Chess is fun and we are happy to prove it at our events!</p>
@@ -173,6 +187,9 @@ export default {
                 <button type="button" class="py-2 rounded-1 medium fw-bold px-4 mt-4 btn">Register</button>
             </div>
         </div>
+        <!-- Events -->
+
+        <!-- news -->
         <div class="news py-3">
             <div class="container py-5">
                 <div class="d-flex">
@@ -196,7 +213,7 @@ export default {
                 </div>
             </div>
         </div>
-        
+        <!-- news -->
     </main>
 </template>
 
